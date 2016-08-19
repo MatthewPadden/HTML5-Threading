@@ -1,0 +1,17 @@
+﻿h3 {
+  color: red;
+}
+#log-container {
+  width: 500px;
+  padding: 2px 0;
+}
+#log {
+  height: 400px;
+  color: green;
+  background-color: black;
+}
+  #log span {
+    display: block;
+    padding: 10px 10px;
+    border-bottom: 1px dashed gray;
+  }

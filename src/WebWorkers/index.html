@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Web Workers</h1>
+    <p>
+    This is an example of using using web workers. On page load this thread will create a worker which can be found at <a href="/js/script.js">this pen</a>.
+    When you add in some input below and hit 'Send to Worker', the script will send that input to the worker which will then echo that input back with 'Processed:' prepended.
+    </p>
+    <hr />
+
+    <input id="input" type="text" placeholder="Enter text here..." />
+    <button id="send">Send to Worker</button>
+    <button id="clear">Clear the Log</button>
+
+    <div id="log-container">
+        <hr/>
+        <div id="log">
+        </div>
+        <hr/>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
